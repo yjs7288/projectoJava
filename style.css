@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UM POUCO DE MIM</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    
+    <nav>
+        <img src="mifoto.jpg" class="imag1" alt="Yairo">
+        <ul>
+            <li>Apresentação</li>
+            
+            <li> Formação</li>
+
+            <li>Experiência</li>
+
+            <li> Projetos </li>
+
+            <li>Fale Comigo!</a></li>
+        <ul>
+    </nav>
+    
+<header>
+    <img src="ciudades2.png" class="imag2" alt="portada">
+    <img src="mifoto.jpg" class="imag3" alt="Yairo">
+    
+    
+    
+</header>
+<section class="midia">
+    <a href="https://www.linkedin.com/in/yairo-jos%C3%A9-sanchez-querales-2aa96a115/"><img  src="link.png" alt="rede"></a>
+    <a href="https://twitter.com/login?lang=pt"><img src="twiter.png" alt="rede"></a>
+    <a href="https://www.facebook.com/"><img  src="face.png" alt="rede"></a>
+</section>
+<main>
+    
+    <h1>Yairo Sánchez</h1>
+    <br>
+    <p class="subtitulo1">Full Stack Developer</p>
+    <br>
+    <p> Full-Stack Web Development in HTML, CSS, conhecimento em rede, conhecimento de T.I.
+        com experiência feita na Venezuela e no Brasil.
+        
+        Experiência em vendas por qualquer médio de comunicação, experiente em telemarketing, criar, 
+        fazer Scrip, e executar técnicas de venda de telemarketing. trabalhar com estatísticas por gráficos
+         ou numero de indicadores, trabalhar com frases frequentes, experiência em telemarketing Activo, ATC, 
+         Controle de qualidade, também tenho conhecimento de controle de equipe.
+        
+        Dois idiomas Espanhol nativo, Português Fluente, Ingles intermedio (em processo de aprender), 
+        quase duas carreiras, conhecimento em Medicina e Engenheira de Sistemas.<br>
+    </p>
+
+</main>
+
+<section class="formacion">
+    <h2>Formação</h2>
+    <ul>
+     <li> 
+         <div>
+
+         </div> 
+        
+        
+        2016 <br>
+       Medicina <br>
+       Universidad Nacional Experimental 'Rafael María Baralt'
+    <br>
+    </li>
+
+    <li>
+
+        <div>
+
+        </div>
+
+        2013 <br>
+        Ingeniero de Sistemas <br>
+        Nacional Experimental de las Fuerzas Armadas 
+        </li>
+        
+    </ul>
+</section>
+
+
+
+<section class="experiencia">
+<h2>Experiência</h2>
+<ul>
+
+    <li>
+
+        <div>
+
+
+        </div>
+
+
+        2020 - atual<br>
+        Auxiliar de Tecnologia de informação<br>
+        GPA <br>
+    
+
+</li>
+
+<li>
+
+    <div>
+
+    </div>
+    2017-2018<br>
+    Operador de telemarketing <br>
+    Prof Line <br>
+
+
+</li>
+</ul>
+</section>
+
+<section class="proyectos">
+<h2>Projetos</h2><br>
+    <article>
+       <a href="https://github.com/"><img src="proyecto2.jpg" alt="proyecto"></a>
+        <h3>Receita de comida</h3>
+            <p>Neste proyecto tentamos fazer
+            uma receita de arepa cabimera
+            o memos foi disenhado para teste em html
+            </p>
+    </article>
+
+    <article>
+       <a href="https://github.com/">  <img src="proyecto1.jpg" alt="proyecto"></a>
+        <h3>Templete para praias</h3>
+            <p>Meu primeiro projeto com html e css foi uma experiencia
+                grata mas consegui ate coloquei em resposivo.
+            </p>
+    </article>
+
+    <article>
+        <a href="https://github.com/"><img src="proyecto3.jpg" alt="proyecto"></a>
+        <h3>Meu primeiro portafolio</h3>
+            <p>En pratica vemos como podemos avançar
+                não temos outro caminho sennão melhorar cada dias.
+            </p>
+    </article>
+    </section>
+
+        <footer>
+            <section>
+            <section class="inzquierda">
+                <h2>Contatos</h2>
+                <p>Gostaria de entrar em contato comigo?<br>
+                Preencha o formulário ao lado e entrarei em<br>
+                contato o mais rápido possível.<br>
+                Você também pode me encontrar nas<br> seguintes redes sociais:<p>
+                    <br>
+
+                <a href="https://www.linkedin.com/in/yairo-jos%C3%A9-sanchez-querales-2aa96a115/"><img src="link.png" alt="rede"></a>
+                <a href="https://twitter.com/login?lang=pt"><img src="twiter.png" alt="rede"></a>
+                <a href="https://www.facebook.com/"><img src="face.png" alt="rede"></a>
+            </section>
+           
+        </section>
+    
+    <section class="derecha">
+        <form action="pagina de ação" method="post" name="dados"onSubmit="return enviardados();" >
+  <table width="588" border="0" align="center" >
+    <tr>
+      <td width="118">Nome completo:</td>
+      <td width="460">
+        <input name="tx_nome" type="text" class="formbutton"
+        id="tx_nome" size="48" maxlength="150">
+      </td>
+    </tr>
+    <tr>
+      <td>E-mail:</td>
+      <td><font size="2">
+        <input name="tx_email" type="text" id="tx_email" size="48"
+        maxlength="150" class="formbutton">
+      </font></td>
+    </tr>
+    <tr>
+      <td>Mensagem<strong>:
+      </strong></font></font></td>
+      <td rowspan="1"><font size="2">
+        <textarea name="tx_mensagem" cols="50" rows="8"
+        class="formbutton" id="tx_mensagem" input ></textarea>
+      </font></td>
+    </tr>
+    <tr>
+      <td height="85"><p><strong><font face="Verdana,
+      Arial, Helvetica, sans-serif"><font size="1">
+      </font></font></strong></p></td>
+    </tr>
+    <tr>
+      <td height="22"></td>
+      <td>
+        <input name="Submit" type="submit"  class="formobjects"
+        value="Enviar">
+
+        <input name="Reset" type="reset" class="formobjects"
+        value="Apagar todo">
+      </td>
+    </tr>
+  </table>
+</form>
+
+</section>
+
+    </footer>
+
+</body>
+</html>
